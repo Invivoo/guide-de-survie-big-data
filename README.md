@@ -3,17 +3,19 @@
 1. [Comprendre les limites des SGBDR](#comprendre-les-limites-des-sgbdr)
 1. [Quand passer du SGBDR à un système NoSQL](#quand-passer-du-sgbdr-à-un-système-nosql)
 1. [Systèmes NoSQL](#systèmes-nosql)
-  1. [Théorème du CAP](#théorème-du-cap)
-  1. [Différentes approches à la persistance](#différentes-approches-à-la-persistance)
+    1. [Théorème du CAP](#théorème-du-cap)
+    1. [Différentes approches à la persistance](#différentes-approches-à-la-persistance)
 1. [Paradigmes du Big Data](#paradigmes-du-big-data)
 1. [Architectures](#architectures)
 1. [Solutions Hadoop](#solutions-hadoop)
+1. [Contribuer à ce guide](#contribuer-à-ce-guide)
 
 # Comprendre les limites des SGBDR
 
-Si SGBDR OK, on reste sur du SGBDR
+TODO
 
 # Quand passer du SGBDR à un système NoSQL
+
 
 - les coûts de la montée en charge verticale
 - la montée en charge horizontale limitée à 10 nœuds, pour des contraintes techniques
@@ -51,7 +53,7 @@ Si SGBDR OK, on reste sur du SGBDR
 
 ### Orienté colonnes
 
-- Cassandra
+- [Cassandra](storage/cassandra.md)
 - HBase
 
 ### Graph
@@ -138,12 +140,24 @@ Référence : https://blog.matthewrathbone.com/2013/04/17/what-is-hadoop.html
 
 ### Distributions Hadoop
 
+TODO
+
 #### Hortonworks
+
+TODO
 
 #### MapR
 
+TODO
+
 #### Cloudera
 
-### Retour d'expérience sur Hadoop
+TODO
 
-- Criteo et leurs cluster
+### Retours d'expérience sur Hadoop
+
+TODO
+
+# Contribuer à ce guide
+
+Ce guide est rédigé au format [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). N'hésiter pas à le corriger / complémenter par Pull Request.
