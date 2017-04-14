@@ -1,8 +1,19 @@
+# Guide de survie du Big Data
+
+1. [Comprendre les limites des SGBDR](#comprendre-les-limites-des-sgbdr)
+1. [Quand passer du SGBDR à un système NoSQL](#quand-passer-du-sgbdr-à-un-système-nosql)
+1. [Systèmes NoSQL](#systèmes-nosql)
+  1. [Théorème du CAP](#théorème-du-cap)
+  1. [Différentes approches à la persistance](#différentes-approches-à-la-persistance)
+1. [Paradigmes du Big Data](#paradigmes-du-big-data)
+1. [Architectures](#architectures)
+1. [Solutions Hadoop](#solutions-hadoop)
+
 # Comprendre les limites des SGBDR
 
 Si SGBDR OK, on reste sur du SGBDR
 
-# Quand lâcher les systèmes SGBDR (à éditer)
+# Quand passer du SGBDR à un système NoSQL
 
 - les coûts de la montée en charge verticale
 - la montée en charge horizontale limitée à 10 nœuds, pour des contraintes techniques
@@ -10,15 +21,15 @@ Si SGBDR OK, on reste sur du SGBDR
 - les bases de données relationnelles ne sont pas adaptées pour les traitements temps réel
 - les prix des licences de logiciels comme Oracle s'ajoutant au prix des machines spécifiques
 
-# Alternatives aux systèmes SGBDR, NoSQL
+# Systèmes NoSQL
 
-## CAP Theorem
+## Théorème du CAP
 
 - Cohérence
 - Disponibilité
 - Tolérance au Partitionnement
 
-## Différente approche au stockage
+## Différentes approches à la persistance
 
 ### Clef / Valeur
 
