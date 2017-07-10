@@ -45,7 +45,7 @@ TODO
 ### Orienté document
 
 - MongoDB
-- Elasticsearch
+- [Elasticsearch](storage/elasticsearch.md)
 - CouchDB
 - RavenDB
 - OrientDB
