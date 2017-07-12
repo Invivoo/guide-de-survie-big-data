@@ -8,6 +8,7 @@
 1. [Paradigmes du Big Data](#paradigmes-du-big-data)
 1. [Architectures](#architectures)
 1. [Solutions Hadoop](#solutions-hadoop)
+1. [Visualisation et exploration de la data](#visualisation-et-exploration-de-la-data)
 1. [Contribuer à ce guide](#contribuer-à-ce-guide)
 
 # Comprendre les limites des SGBDR
@@ -157,6 +158,11 @@ TODO
 ### Retours d'expérience sur Hadoop
 
 TODO
+
+# Visualisation et exploration de la data
+
+* [Tableau](https://www.tableau.com/)
+* [Trifacta Wrangler](https://www.trifacta.com)
 
 # Contribuer à ce guide
 
