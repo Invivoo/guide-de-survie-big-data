@@ -13,16 +13,14 @@
 
 # Comprendre les limites des SGBDR
 
-TODO
-
-# Quand passer du SGBDR à un système NoSQL
-
-
 - les coûts de la montée en charge verticale
-- la montée en charge horizontale limitée à 10 nœuds, pour des contraintes techniques
 - les coûts en ressources humaines pour mettre en place un tel matériel et assurer son bon fonctionnement, ce qui implique plus de coûts pour héberger plus de données
 - les bases de données relationnelles ne sont pas adaptées pour les traitements temps réel
 - les prix des licences de logiciels comme Oracle s'ajoutant au prix des machines spécifiques
+
+# Quand passer du SGBDR à un système NoSQL
+
+TODO
 
 # Systèmes NoSQL
 
